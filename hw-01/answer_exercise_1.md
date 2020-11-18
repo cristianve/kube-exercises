@@ -28,9 +28,9 @@ kubectl exec -it nginx-server -- bash
 
 Una vez dentro del pod, para visualizar el contenido de NGINX ejecuto el siguiente comando:
 
-cat docker-entrypoint.sh
+cd /usr/share/nginx/html y cat index.html
 
-![alt text](https://github.com/jordill14/kube-exercises/blob/master/hw-01/images/contenido_imagen.PNG)
+![alt text](https://github.com/jordill14/kube-exercises/blob/master/hw-01/images/cat_html.PNG)
 
 La calidad de servicio (QoS) será Guaranteed, ya que la requests y los límites establecidos por el archivo pod.yaml son iguales.
 
