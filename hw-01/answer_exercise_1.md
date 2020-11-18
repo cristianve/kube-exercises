@@ -32,7 +32,7 @@ cat docker-entrypoint.sh
 
 ![alt text](https://github.com/jordill14/kube-exercises/blob/master/hw-01/images/contenido_imagen.PNG)
 
-La calidad de servicio (QoS) será Guaranteed, ya que la reuqests y los límites establecidos por el archivo pod.yaml son iguales.
+La calidad de servicio (QoS) será Guaranteed, ya que la requests y los límites establecidos por el archivo pod.yaml son iguales.
 
 
 ![alt text](https://github.com/jordill14/kube-exercises/blob/master/hw-01/images/qos.PNG)

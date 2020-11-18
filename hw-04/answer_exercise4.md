@@ -10,7 +10,7 @@ kubectl create -f deployment.yaml
 
 kubectl describe deployment nginx-deployment, con esta instrucción puedo ver el objeto deployment creado:
 
-![alt text](https://github.com/jordill14/kube-exercises/blob/master/hw-04/images/deploy_desc1.PNG)
+![alt text](https://github.com/jordill14/kube-exercises/blob/master/hw-04/images/deploy_desc_1.PNG)
 
 Para reaizar un rollback a la versión generada previamente utilizamos la siguiente instrucción:
 
